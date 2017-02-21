@@ -1,0 +1,23 @@
+
+@media screen and (min-width: 100px) and (max-width: 800px) {
+}
+
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 560px) {
+}
+
+@media screen and (max-width: 490px) {
+.under .image_r, .under .image_l {
+	float: none;
+	text-align: center;
+	margin: 0 0 20px;
+}
+}
+
+@media screen and (max-width: 320px) {
+}
+
+@media screen and (max-width: 240px) {
+}

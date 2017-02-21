@@ -1,0 +1,324 @@
+@charset "UTF-8";
+@import "base.css";
+@import "fonts.css";
+/*==========================================================================*/
+/*//////////////////////////////////////////////////////////////////////////*/
+/*//////                                                              //////*/
+/*//////  Copyright (C) 2009 株式会社フリーセル All Rights Reserved.  //////*/
+/*//////                                                              //////*/
+/*//////////////////////////////////////////////////////////////////////////*/
+/*                                                                          */
+/*    base.css  --> スタイルの初期設定を行うため、変更しないで下さい。      */
+/*    fonts.css --> フォントの初期設定を行うため、変更しないで下さい。      */
+/*                                                                          */
+/*==========================================================================*/
+
+/*==========================================================================*/
+/*                           Common-Setting                                 */
+/*==========================================================================*/
+
+/* 基本タグのフォントサイズを指定（12px -> 120% or 1.2em ） */
+h1, h2, h3, h4, h5, h6, input, button, textarea, select, p, blockquote, th, td, pre, address, li, dt, dd {
+	font-size: 140%;
+}
+img {
+	vertical-align: bottom;
+}
+h1 {
+} /* Header内で設定 */
+h2 {
+}
+h3 {
+}
+h4 {
+}
+a {
+	color: #195CB1;
+}
+a:hover, a:active {
+	color: #195CB1;
+}
+a:visited {
+}
+ul {
+}
+li {
+}
+dl {
+}
+dt {
+}
+dd {
+}
+table {
+	width: 100%
+}
+th, td {
+}
+th {
+}
+td {
+}
+p {
+	margin: 0 0 1.5em;
+}
+p, dd, td, th, li {
+	line-height: 1.6em;
+}
+.section {
+	padding: 0 0 30px 0;
+}
+.section .section {
+	padding: 0 0 10px;
+}
+.image_l {
+	float: left;
+	margin: 0 16px 8px 0;
+}
+.image_r {
+	float: right;
+	margin: 0 0 8px 16px;
+}
+#toTop {
+	border: none;
+	bottom: 50px;
+	cursor: pointer;
+	display: none;
+	overflow: hidden;
+	position: fixed;
+	right: 50px;
+	text-decoration: none;
+	margin: 0;
+}
+/* add
+------------------------------------------------------------------------*/
+
+/*==========================================================================*/
+/*                            Container                                     */
+/*==========================================================================*/
+
+html {
+	background: none;
+}
+body {
+	color: #333333;
+}
+#wrapper {
+	
+}
+.inner {
+	width: 1000px;
+	margin: 0 auto;
+	min-width: 1000px;
+}
+.under #content {
+	text-align: left;
+}
+/*==========================================================================*/
+/*                               Header                                     */
+/*==========================================================================*/
+
+#header {
+  border-bottom: 4px solid #0075a3;
+  text-align: left;
+}
+
+#header_menu {
+	/* fallback */
+	  background-color: #e2e8e8;
+	
+	  /* Safari 4-5, Chrome 1-9 */
+	  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e2e8e8), to(#fff));
+	
+	  /* Safari 5.1, Chrome 10+ */
+	  background: -webkit-linear-gradient(top, #fff, #e2e8e8);
+	
+	  /* Firefox 3.6+ */
+	  background: -moz-linear-gradient(top, #fff, #e2e8e8);
+	
+	  /* IE 10 */
+	  background: -ms-linear-gradient(top, #fff, #e2e8e8);
+	
+	  /* Opera 11.10+ */
+	  background: -o-linear-gradient(top, #fff, #e2e8e8);
+	  border-top: 1px solid #dbdbdb;
+}
+
+#header #header_top {
+  padding: 20px 0;
+}
+
+#header .header_left {
+  float: left;
+  margin-right: 2%;
+  max-width: 380px;
+  width: 38%;
+}
+
+#header .header_right {
+  float: right;
+  text-align: right;
+  width: 60%;
+}
+
+#header .header_tel_text {
+  color: #333;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 9px;
+}
+
+.header_info_left {
+  float: left;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+#header h1 {
+  color: #000000;
+  font-size: 12px;
+  margin-bottom: 28px;
+}
+
+#header #logo, .header_info p {
+  margin: 0;	
+}
+
+/*==========================================================================*/
+/*                              gnavi                                       */
+/*==========================================================================*/
+
+#header_menu #gnavi > li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	display:block;
+}
+
+#header_menu #gnavi > li > a {
+  color: #444444;
+  display: table-cell;
+  font-size: 21px;
+  height: 50px;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  width: 135px;
+  font-weight: bold;
+  border-left: 1px solid #dbdbdb;
+}
+
+#header_menu #gnavi > li:last-child > a {
+  border-right: 1px solid #dbdbdb;
+}
+
+#header_menu #gnavi li.active a, #header_menu #gnavi li a:hover
+{
+	background-color:#0075a3;
+	color: #fff;
+}
+
+#header_menu #gnavi ul.sub_menu
+{
+	display:none;
+	position:absolute;
+	top:105%;
+	left:0;
+	background:#fff;
+	padding:0;
+}
+
+#header_menu #gnavi ul.sub_menu > li
+{
+	float:none;
+	width:200px;
+}
+
+#header_menu #gnavi ul.sub_menu > li
+{
+	line-height:120%;
+	padding:10px 15px;
+}
+
+#primary_nav_wrap ul li:hover > ul, #header_menu #gnavi li:hover > ul.sub_menu
+{
+	display:block;
+}
+
+/*==========================================================================*/
+/*                              Top_info                                    */
+/*==========================================================================*/
+#index #top_info {
+  	box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.23);	
+}
+
+/*==========================================================================*/
+/*                              Footer                                      */
+/*==========================================================================*/
+
+#footer {
+	clear: both;
+	
+}
+#footer address {
+	text-align: center;
+}
+/*==========================================================================*/
+/*                             Contents                                     */
+/*==========================================================================*/
+
+/* index
+------------------------------------------------------------------------*/
+
+
+/* under
+------------------------------------------------------------------------*/
+.under #top_info {
+	height: 350px;
+}
+.under #top_info .inner {
+	position: relative;
+}
+.under #topic_path {
+	padding: 10px 0;
+}
+.under #topic_path li, .under #topic_path li a {
+	display: inline-block;
+	font-size: 12px;
+	color: #3C3C3C;
+}
+.under #topic_path li a {
+	text-decoration: none;
+}
+.under #topic_path li a:hover {
+	text-decoration: underline;
+}
+
+.under h2, .under h3, .under h4, .under h5 {
+	font-family: 'HGMinchoB';
+}
+.under h2 {
+	font-size: 40px;
+	padding: 160px 0 150px;
+}
+.under .under_box_h3 {
+	width: 100%;
+	background: #84d8d1;
+	padding: 50px 0;
+	margin-bottom: 60px;
+}
+.under #info_en {
+	bottom: -27px;
+	color: #fff;
+	font-family: "EBGaramond-Regular";
+	font-size: 54px;
+	left: 0;
+	letter-spacing: 6px;
+	margin-bottom: 0;
+	position: absolute;
+}
+
+/* end under
+------------------------------------------------------------------------*/

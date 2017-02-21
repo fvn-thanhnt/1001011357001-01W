@@ -1,0 +1,53 @@
+/* responsive */
+.box_sp {
+	display: none;
+}
+.box_pc {
+	display: block;
+}
+
+/*responsive */
+
+
+@media screen and (min-width: 769px) {
+}
+
+@media screen and (max-width: 768px) {
+img {
+	max-width: 100%;
+}
+#wrapper, #header, #main, #footer, .inner, .under .under_inner {
+	width: 100% !important;
+	min-width: inherit !important;
+}
+.inner {
+	box-sizing: border-box;
+	padding: 0 3%;
+}
+.box_sp {
+	display: block;
+}
+.box_pc {
+	display: none;
+}
+/*---*/
+}
+
+@media screen and (min-width: 100px) and (max-width: 800px) {
+}
+
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 560px) {
+}
+
+@media screen and (max-width: 490px) {
+
+}
+
+@media screen and (max-width: 320px) {
+}
+
+@media screen and (max-width: 240px) {
+}

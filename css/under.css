@@ -1,0 +1,65 @@
+.under h3 {
+	font-size:300%;
+	text-align:center;
+	color:#fff;
+	margin-bottom:40px;
+	line-height:1.4em;
+}
+.under h4 {
+	font-size:280%;
+	margin-bottom:35px;
+	padding-bottom:30px;
+	background:url(../images/bg_h4.jpg) left bottom no-repeat;
+}
+
+.under h5 {
+	font-size:200%;
+	margin-bottom:30px;
+	border-left:#84D8D1 2px solid;
+	padding:10px 0 10px 25px;
+}
+.under h6 {
+	font-size:160%;
+	border-bottom:#84D8D1 1px dotted;
+	padding-bottom:10px;
+	margin-bottom:25px;
+	font-weight:bold;
+}
+.under table {
+	margin-bottom: 20px;
+}
+.under table td, .under table th {
+	border: #F5F5F5 2px solid;
+}
+.under table th {
+	background: #8DD8D2;
+	color: #fff;
+}
+.under table th.bg_th01 {
+	background:#AAAAAA;	
+}
+.under table td {
+	background: #fff;
+}
+.under ul.list_link li, .under ul.list01 li {
+	margin: 0 0 7px 0;
+}
+
+.under .txt_bold {
+	font-weight: bold;
+}
+.under .txt_small {
+	font-size: 120%;
+}
+.under #content p:last-child, .under #content table:last-child, .under ul.list01 li:last-child {
+	margin-bottom: 0;
+}
+.under .section:last-child {
+	padding: 0;
+}
+.under table.td_top td {
+	vertical-align: top;
+}
+.under table.td_center td {
+	text-align: center;
+}
