@@ -1,50 +1,56 @@
 .under h3 {
-	font-size:300%;
-	text-align:center;
-	color:#fff;
-	margin-bottom:40px;
-	line-height:1.4em;
+	font-size: 30px;
+	text-align: left;
+	color: #000000;
+	margin-bottom: 40px;
+	line-height: 1.4em;
+	background: url(../images/under_h3_bg.png) no-repeat left bottom;
+	padding-left: 40px;
 }
 .under h4 {
-	font-size:280%;
-	margin-bottom:35px;
-	padding-bottom:30px;
-	background:url(../images/bg_h4.jpg) left bottom no-repeat;
+	font-size: 24px;
+	margin-bottom: 35px;
+	/*	padding-bottom:30px;*/
+	background: url(../images/under_h4_bg.png) left bottom no-repeat;
+	color: #fff;
+	line-height: 1.5em;
+	padding-left: 10px;
 }
-
 .under h5 {
-	font-size:200%;
-	margin-bottom:30px;
-	border-left:#84D8D1 2px solid;
-	padding:10px 0 10px 25px;
+	font-size: 18px;
+	margin-bottom: 30px;
+	border-bottom: #0075a3 1px solid;
+	padding: 10px 0 10px 40px;
+	background: url(../images/under_h5_bg.png) left top no-repeat;
 }
 .under h6 {
-	font-size:160%;
-	border-bottom:#84D8D1 1px dotted;
-	padding-bottom:10px;
-	margin-bottom:25px;
-	font-weight:bold;
+	font-size: 16px;
+	border-bottom: #0075a3 1px dotted;
+	padding-bottom: 10px;
+	margin-bottom: 25px;
 }
 .under table {
 	margin-bottom: 20px;
 }
 .under table td, .under table th {
-	border: #F5F5F5 2px solid;
+	border: #888888 1px solid;
 }
 .under table th {
-	background: #8DD8D2;
-	color: #fff;
-}
-.under table th.bg_th01 {
-	background:#AAAAAA;	
+	background: #f8f1e4;
+	color: #000;
 }
 .under table td {
 	background: #fff;
 }
-.under ul.list_link li, .under ul.list01 li {
-	margin: 0 0 7px 0;
+.under .frame01 {
+	padding: 20px;
+	border: 4px solid #d2b792;
 }
-
+.under ul.list01 li {
+	margin: 0 0 8px 0;
+	padding-left: 10px;
+	background: url(../images/list_icon.png) no-repeat top 6px left;
+}
 .under .txt_bold {
 	font-weight: bold;
 }
@@ -62,4 +68,122 @@
 }
 .under table.td_center td {
 	text-align: center;
+}
+.under .service_simulation_title {
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.under .frame02 {
+	padding: 15px;
+	border: 4px solid #f7710a;
+}
+.under .sidan_dl {
+	width: 100%;
+	padding-bottom: 30px;
+}
+.under .sidan_dl:last-child {
+	padding-bottom: 0;
+}
+.under .sidan_dl dt {
+	width: 100px;
+	float: left;
+	font-weight: bold;
+}
+.under .sidan_dl dd {
+	width: calc(100% - 150px);
+	float: left;
+	font-weight: bold;
+	font-size: 16px;
+}
+.under .step01 {
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 25px;
+	padding-bottom: 50px;
+	background: url(../images/under_step_bg.png) no-repeat bottom center;
+}
+.under .step01:last-child {
+	background: none;
+}
+.under .step01 dl {
+}
+.under .step01 dt {
+	display: table;
+	width: 100%;
+	background: #0085b8 url(../images/under_step_dt.png) no-repeat right 10px top 10px;
+	-webkit-background-size: 35px auto;
+	background-size: 35px auto;
+}
+.under .step01 dt .step_tt {
+	
+	color: #fff;
+	display: table-cell;
+	font-size: 18px;
+	padding: 10px;
+	vertical-align: middle;
+	width: 20px;
+	
+
+}
+.under .step01 dt dd {
+	
+}
+.under .step01 dt .tt01 {
+	color: #fff;
+	display: table-cell;
+	font-size: 24px;
+	padding: 10px;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.under .step01 dd {
+	border: 1px solid #0085b8;
+	display: inline-block;
+	padding: 20px;
+}
+.under .frame02{
+    padding: 15px;
+    border: 4px solid #F7EBD5;
+    background: #F5EAD4;
+}
+.under .frame03{
+    background: #f8f1e4;
+    padding: 15px;
+}
+.under .title_frame03{
+    background: url(../images/under_h3_bg.png) no-repeat bottom left;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.under .dl_frame03{
+    padding: 15px 0;
+    border-bottom: 1px dotted #e96b09;
+}
+.under .dl_frame03 dt{
+    font-weight: bold;
+    font-size: 16px;
+}
+.under .dl_frame03:last-child{
+    border-bottom: none;
+}
+.under .text_color{
+    color: #e72b34;
+}
+.under .dl_frame02{
+    border-bottom: 1px dotted #e96b09;
+    padding: 10px 0;
+}
+.under .dl_frame02:last-child{
+    border-bottom: none;
+}
+.under .dl_frame02 dt{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.under .dl_frame02 dd{
+    padding-bottom: 15px;
 }
