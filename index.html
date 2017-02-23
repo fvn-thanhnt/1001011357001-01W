@@ -45,7 +45,7 @@
                         <p><img src="images/header_tel.png" alt="0120-966-128" width="327" /></p>
                     </div><!-- header_info_left -->
                     <div class="header_info_right">
-                        <p><a href="contact/index.cgi"><img src="images/header_bnr_contact.png" alt="最短即日！無料見積り！メールでのお問い合わせはこちら" width="248" /></a></p>
+                        <p><a href="contact/index.cgi"><img src="images/header_bnr_contact_off.png" alt="最短即日！無料見積り！メールでのお問い合わせはこちら" width="248" /></a></p>
                     </div><!-- header_info_right -->
                 </div><!-- header_info -->
             </div><!-- header_right -->
@@ -79,17 +79,22 @@
         <div><h2><img src="images/index_top_info01.png" width="800" alt="気になる個所、手遅れになる前に無料外壁屋根診断" /></h2></div>
         <div><h2><img src="images/index_top_info02.png" width="800" alt="「失敗しない」では満足できない方！最後の外壁塗装をお考えの方！" /></h2></div>
         <div><h2><img src="images/index_top_info03.png" width="800" alt="色で悩む方多数！こんなんじゃなかったにならないために！塗装前のカラーシミュレーション" /></h2></div>
-        <div><h2><img src="images/index_top_info01.png" width="800" alt="気になる個所、手遅れになる前に無料外壁屋根診断" /></h2></div>
-        <div><h2><img src="images/index_top_info02.png" width="800" alt="「失敗しない」では満足できない方！最後の外壁塗装をお考えの方！" /></h2></div>
-        <div><h2><img src="images/index_top_info03.png" width="800" alt="色で悩む方多数！こんなんじゃなかったにならないために！塗装前のカラーシミュレーション" /></h2></div>
       </div><!-- index_slider -->
+      <div class="slider_arrow_wrapper">
+      	<div class="inner clearfix">
+        	<a class="btn_slider_prev" href="#"><img src="images/index_slider_prev.png" alt="prev"></a>
+        	<a class="btn_slider_next" href="#"><img src="images/index_slider_next.png" alt="next"></a>
+        </div>
+      </div><!-- slider_arrow_wrapper -->
       
-      <!-- THUMBNAILS -->
-      <!--<div class="slider-nav-thumbnails">
-        <div><img src="http://placehold.it/1200x600&text=one" alt="One"></div>
-        <div><img src="http://placehold.it/1200x600&text=two" alt="Two"></div>
-        <div><img src="http://placehold.it/1200x600&text=three" alt="Three"></div>
-      </div>-->
+      
+      <div class="inner clearfix">
+      	  <div class="slider-nav-thumbnails">
+            <div><img src="images/top_info_thumb01.png" alt="気になる個所、手遅れになる前に無料外壁屋根診断"></div>
+            <div><img src="images/top_info_thumb02.png" alt="「失敗しない」では満足できない方！最後の外壁塗装をお考えの方！"></div>
+            <div><img src="images/top_info_thumb03.png" alt="色で悩む方多数！こんなんじゃなかったにならないために！塗装前のカラーシミュレーション"></div>
+          </div>
+      </div><!-- inner -->
       
     </div><!-- top_info -->
   
@@ -119,7 +124,7 @@
             <!-- content start -->
             <div id="content" class="clearfix"> 
 				<div id="index_content01" class="clearfix">
-                	<h5>新着情報</h5>
+                	<h4>新着情報</h4>
                 	<div id="index_news01">
                     	<dl>
                         	<dd><span class="index_news01_date">2017年1月30日</span><span class="index_news01_tag">タグが入ります</span><span class="index_news01_description">タイトルが入ります。タイトルが入ります。</span></dd>
@@ -135,6 +140,7 @@
                 </div><!-- index_content01 -->
                 
                 <div id="index_content02" class="clearfix">
+                	<h4><img src="images/index_content02_title01.png" alt="見た目以上に中身はボロボロ！" /></h4>
                 	<div class="content02_description">
                     	<p>テキストが入ります。テキストが入ります。
                             テキストが入ります。テキストが入ります。
@@ -239,7 +245,7 @@
                         <dd><a href="basic/estimate.html">見積りの見方</a></dd>
                     </dl>
                 </div><!-- navi_list -->
-                <p><a href="service/sindan.html"><img src="images/navi_img01_off.png" alt="気になる個所、手遅れになる前に無料外壁屋根診断詳細な報告書をご提出" /></a></p>
+                <p class="navi_bnr01"><a href="service/sindan.html"><img src="images/navi_img01_off.png" alt="気になる個所、手遅れになる前に無料外壁屋根診断詳細な報告書をご提出" /></a></p>
                 <div class="navi_list clearfix">
                 	<dl class="navi_list02">
                     	<dt>幸成の外壁サービス</dt>
@@ -402,7 +408,7 @@
     	<div class="inner clearfix">
         	<div class="footer_top_content clearfix">
             	<div class="footer_logo_wrapper">
-                	<p><a href="kosei-gaiheki.jp"><img src="images/footer_logo.png" alt="株式会社 幸成" /></a></p>
+                	<p><a href="http://kosei-gaiheki.jp/"><img src="images/footer_logo.png" alt="株式会社 幸成" /></a></p>
                 </div><!-- footer_logo_wrapper -->
                 <div class="footer_top_info">
                 	<div class="footer_info_wrapper clearfix">
@@ -422,9 +428,55 @@
             </div><!-- footer_top_content -->
         </div><!-- inner clearfix -->
     </div><!-- footer_top -->
-    <div class="footer_bottom">
+    <div id="footer_bottom">
     	<div class="inner clearfix">
-        	
+        	<div class="footer_bottom_content clearfix">
+            	<div class="footer_menu_wrapper">
+                	<div class="footer_menu_content clearfix">
+                    	<div class="footer_menu">
+                        	<ul>
+                        		<li><a href="http://kosei-gaiheki.jp/">・TOPページ</a></li>
+                        		<li><a href="basic/index.html">・塗料の種類と選ぶポイント</a></li>
+                        		<li><a href="basic/estimate.html">・見積りの見方</a></li>
+                        		<li><a href="service/index.html">・お勧め塗料アステック塗料</a></li>
+                        		<li><a href="service/price.html">・料金表</a></li>
+                        		<li><a href="service/after.html">・保障・アフターフォロー</a></li>
+                        	</ul>
+                        </div>
+                        <div class="footer_menu">
+                        	<ul>
+                        		<li><a href="service/simulation.html">・カラーシミュレーション</a></li>
+                        		<li><a href="service/sindan.html">・まずは、無料診断！</a></li>
+                        		<li><a href="case/index.php">・施工事例</a></li>
+                        		<li><a href="voice/index.php">・お客様の声</a></li>
+                        		<li><a href="about/index.html">・選ばれる理由</a></li>
+                        		<li><a href="about/promise.html">・幸成の●つのお約束</a></li>
+                        	</ul>
+                        </div>
+                        <div class="footer_menu">
+                        	<ul>
+                        		<li><a href="about/staff.html">・スタッフ紹介</a></li>
+                        		<li><a href="about/faq.html">・よくあるご質問</a></li>
+                        		<li><a href="about/flow.html">・お問い合わせからの流れ</a></li>
+                        		<li><a href="about/area.html">・対応エリア</a></li>
+                        		<li><a href="about/company.html">・会社概要</a></li>
+                        		<li><a href="contact/index.cgi">・お問い合わせ</a></li>
+                        	</ul>
+                        </div>
+                    </div><!-- footer_menu_content -->
+                </div><!-- footer_menu_wrapper -->
+                <div class="footer_bottom_info">
+                	<div class="footer_bottom_left">
+                    	<p class="footer_bottom_text01">西東京を中心とした<br />
+                            地域密着でご対応！<br />
+                            その他のエリアも<br />
+                            ご気軽にご相談ください。</p>
+                    </div><!-- footer_bottom_left -->
+                    <div class="footer_bottom_right">
+                    	<p class="footer_bottom_text02"><img src="images/footer_bnr03.jpg" alt="" /></p>
+                    </div><!-- footer_bottom_left -->
+                </div>
+            </div><!-- footer_bottom_content -->
         </div><!-- inner clearfix -->
     </div><!-- footer_bottom -->
     <div id="footer_address">
