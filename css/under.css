@@ -1,3 +1,61 @@
+
+.under #top_info {
+  background: rgba(247,247,247, 1);
+  background: -moz-linear-gradient(top, rgba(247,247,247, 1) 0%, rgba(251,251,251,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(247,247,247, 1) 0%,rgba(251,251,251,1) 100%);
+  background: linear-gradient(to bottom, rgba(247,247,247, 1) 0%,rgba(251,251,251,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#f3f3f3',GradientType=0 );
+  height: 250px;
+}
+
+.under #top_info > .inner {
+  background: url(../images/under_top_info01.png) no-repeat center center;
+  background-size: cover;
+}
+
+.under #top_info h2 {
+  color: #000;
+  display: table-cell;
+  height: 250px;
+  line-height: 1.2; 
+  padding: 0 10px;
+  vertical-align: middle;
+  font-family: Meiryo,arial,clean,verdana,"Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック",Osaka,sans-serif;
+  font-size: 42px;
+}
+
+.under #navi {
+  width: 280px;
+  float: left;
+  position: relative;
+  margin-right: 30px;	
+}
+
+.under #content {
+  float: right;
+  width: 690px;
+  position: relative;	
+}
+
+.under #topic_path {
+  padding: 10px 0;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.19);
+  margin-bottom: 30px;
+}
+
+.under #topic_path ul li {
+  display: inline-block;
+}
+
+.under #topic_path ul li a {
+  font-size: 14px;
+  color: #000;
+}
+
+.under #topic_path ul li a:hover {
+  text-decoration: underline;	
+}
+
 .under h3 {
 
 	font-size:30px;
@@ -14,7 +72,7 @@
 /*	padding-bottom:30px;*/
 	background:url(../images/under_h4_bg.png) left bottom no-repeat;
 	color: #fff;
-	line-height: 1.5em;
+	line-height: 1.8em;
 	padding-left: 10px;
 }
 .under h5 {
@@ -290,17 +348,10 @@
 	background: url(../images/under_step_bg.png) no-repeat bottom center;
 }
 /*---------------*/
-
-
-.under a {
-	color: #0085b8;
-	text-decoration: none;
+.under #footer {
+  margin-top: 40px;
 }
-.under a:hover {
-	color: #f7323c;
-	text-decoration: underline;
-	transition: 0.1s;
-}
+
 .under .list_anchor_01 {
 	display: table;
 	width: 100%;

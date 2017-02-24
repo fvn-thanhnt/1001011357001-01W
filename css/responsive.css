@@ -13,7 +13,23 @@
 }
 
 @media screen and (max-width: 768px) {
-
+img {
+	max-width: 100%;
+}
+#wrapper, #header, #main, #footer, .inner, .under .under_inner {
+	width: 100% !important;
+	min-width: inherit !important;
+}
+.inner {
+	box-sizing: border-box;
+	padding: 0 3%;
+}
+.box_sp {
+	display: block;
+}
+.box_pc {
+	display: none;
+}
 /*---*/
 }
 

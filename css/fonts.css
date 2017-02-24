@@ -16,7 +16,7 @@ version: 2.7.0
  * x-small is for IE6/7 quirks mode.
  */
 body {
-	font: 62.5% Meiryo, arial, clean, verdana, 'Hiragino Kaku Gothic Pro', "ＭＳ Ｐゴシック", Osaka, sans-serif;
+	font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
 	color: #333;
 	line-height: 1.4;
 }
