@@ -789,9 +789,10 @@ body {
 }
 
 .overnotes_images {
+  background: #fff none repeat scroll 0 0;
   display: table-cell;
+  vertical-align: middle;
   width: 190px;
-  vertical-align: top;
 }
 
 .overnotes01_info_wrapper {
@@ -868,12 +869,6 @@ body {
   float: left;
   margin-right: 20px;
   width: 259px;
-}
-
-.index_box03_info01 {
-  float: left;
-  padding-top: 13px;
-  width: 721px;
 }
 
 .index_box03_info01 p {
@@ -1273,6 +1268,24 @@ body {
 #footer #footer_top.remove_fixed {
   position: relative;
   	
+}
+
+#toTop {
+	border: none;
+	bottom: 30px;
+	cursor: pointer;
+	display: none;
+	overflow: hidden;
+	position: fixed;
+	right: 30px;
+	text-decoration: none;
+	margin: 0;
+	z-index: 9999;
+}
+
+#toTop img {
+  height: auto;
+  width: 64px;
 }
 /*==========================================================================*/
 /*                             Contents                                     */
