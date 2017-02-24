@@ -58,7 +58,6 @@ address {
 	height: 0;
 	clear: both;
 	visibility: hidden;
-	font-size: 0;
 }
 .clearfix { display: inline-block; }
 /* Hides from IE-mac \*/
