@@ -1,11 +1,11 @@
 // anchor in page
 $(window).bind('load resize',function(){
-	"use strict";
+	"use strict";	
 	$(function(){
 		$('a[href^="#"]').click(function(){
 			if ( $( $(this).attr('href') ).length ) {
 				var p = $( $(this).attr('href') ).offset();
-				if($(window).width() > 768){
+				if($(window).width() > 690){
 					$('html,body').animate({ scrollTop: p.top}, 400);
 				}
 				else {
@@ -23,7 +23,7 @@ $(window).bind('load resize',function(){
  var hash = location.hash;
  if(hash){
 	  var p1 = $(hash).offset();
-	if($(window).width > 768){
+	if($(window).width > 690){
 		
 					$('html,body').animate({ scrollTop: p1.top}, 400);
 				}

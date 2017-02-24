@@ -161,10 +161,38 @@
 	.under h4{
 		padding: 10px 0;
 	}
-.under .image_r, .under .image_l {
-	float: none;
+
+img {
+	max-width: 100%;
+}
+#wrapper, #header, #main, #footer, .inner, .under .under_inner {
+	width: 100% !important;
+	min-width: inherit !important;
+}
+.inner {
+	box-sizing: border-box;
+	padding: 0 3%;
+}
+.box_sp {
+	display: block;
+}
+.box_pc {
+	display: none;
+}
+/*=========HUY===========*/
+.under #content {
+	width: 100%;
+}
+.under .list_area {
+	width: 100%;
+	margin: 0 auto;
 	text-align: center;
-	margin: 0 0 20px;
+}
+.under .list_area li {
+	float: left;
+	width: 25%;
+	margin-bottom: 5px;
+	font-size: 5.5vw;
 }
 	.under .frame_sindan{
 		-webkit-background-size: 40px auto;
@@ -202,6 +230,51 @@
 	margin:5px 0;
 	box-sizing: border-box;
 }
+
+.under .box_h4 dl {
+	padding: 0;
+}
+.under .box_h4 dt {
+	margin: 0 5px;
+}
+	.under #content ul.pagination {
+		margin-top: 10px;
+	}
+/*=========HUY END===========*/
+}
+
+@media screen and (max-width: 560px) {
+/*=========HUY===========*/
+.under .list_anchor_01 li a {
+	width: 100%;
+	margin: 5px 0;
+}
+.under .ovn_content .img_title {
+	height: 100%;
+}
+.under .ovn_content .col_2 {
+	width: 100%;
+	margin-right: 0;
+}
+.under .kiji_list_post dl dt {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+.under .kiji_list_post dl dd {
+	margin: 0;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.under .kiji_list_post dl dd a {
+	background: #f8f1e4;
+}
+	
+/*=========HUY END===========*/
+}
+
+@media screen and (max-width: 490px) {
 /*=========HUY===========*/
 .under .right_pc {
 	text-align: left;
