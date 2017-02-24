@@ -3,20 +3,224 @@
 }
 
 @media screen and (max-width: 640px) {
+	.under h2{
+		font-size: 36px;
+	}
+	.under h3{
+		font-size: 26px;
+	}
+	.under h4{
+		font-size: 22px;
+	}
+	.under h5{
+		font-size: 18px;
+	}
+#wrapper, #header, #main, #footer, .inner, .under .under_inner, .under #content, .under #navi {
+	width: 100% !important;
+	min-width: inherit !important;
+}
+.inner {
+	box-sizing: border-box;
+	padding: 0 15px;
+}
+.under table td, .under table th {
+	padding: 7px 10px;
+}
+.section {
+	padding: 0 0 20px 0;
+}
+.under .inner_serviceid {
+	width: 100%;
+}
+.under .list_circle {
+	position: inherit;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: 0 auto;
+	border-spacing: 0;
+	text-align: center;
+}
+.under .image_center {
+	float: none;
+	text-align: center;
+}
+.under .list_circle li {
+	width: 48%;
+	border-radius: 10px;
+	display: inline-block;
+	text-align: center;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	line-height: 60px;
+	height: auto;
+}
+.under .list_circle li:nth-of-type(2n+2) {
+	margin-right: 0;
+}
+.under .case_box dt{
+	width: 100%;
+	margin: 0;
+}
+.under .case_box dd .case_info{
+	width: 100%;
 }
 
-@media screen and (max-width: 560px) {
+.under .case_box dd{
+	width: 100%;
+}
+.under .case_tt{
+	margin-top: 20px;
+	text-align: center;
+}
+.under .case_cate_txt{
+	width: 100%;
+	box-sizing: border-box;;
+	padding: 0;
+	margin: 20px 0 ;
+	line-height: 40px;
+}
+.under .case_region{
+	width: 100%;
+	margin-left: 0;
 }
 
-@media screen and (max-width: 490px) {
+#case_detail .case_box dt{
+	width: 100%;
+	float: none;
+}
+#case_detail .case_box dd{
+	padding-top: 20px;
+	width: 100%;
+	float: none;
+}
+#contribute_slider_list span{
+	width: 100%;
+	box-sizing: border-box;
+	
+	
+}
+#case_detail #contribute_slider_list > li{
+	display: table-cell;
+	vertical-align: middle;
+}
+#case_detail #contribute_slider_list > li img{
+	max-width: 100% !important;
+	/*display: table-cell;
+	vertical-align: middle;*/
+}
+/*=========HUY===========*/
+.under #content {
+	width: 100%;
+}
+.under .list_area {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.under .list_area li {
+	float: left;
+	width: 25%;
+	margin-bottom: 5px;
+	font-size: 5.5vw;
+}
 .under .image_r, .under .image_l {
 	float: none;
 	text-align: center;
 	margin: 0 0 20px;
 }
+/*=========HUY END===========*/
+}
+
+@media screen and (max-width: 560px) {
+.under .sidan_dl {
+	margin-bottom: 20px;
+}
+.under .sidan_dl dt {
+	width: 100%;
+	display: inline-block;
+}
+.under .sidan_dl dd {
+	width: 100%;
+	display: inline-block;
+}
+/*=========HUY===========*/
+.under .list_anchor_01 li a {
+	width: 100%;
+	margin: 5px 0;
+}
+/*=========HUY END===========*/
+}
+
+@media screen and (max-width: 490px) {
+	.under h3, .under h4, .under h5{
+		line-height: 1.3em;
+		
+	}
+	.under h4{
+		padding: 10px 0;
+	}
+.under .image_r, .under .image_l {
+	float: none;
+	text-align: center;
+	margin: 0 0 20px;
+}
+	.under .frame_sindan{
+		-webkit-background-size: 40px auto;
+		background-size: 40px auto;
+	}
+.under .step01 dt {
+	-webkit-background-size: 20px auto;
+	background-size: 20px auto;
+}
+.under .step01 {
+	-webkit-background-size: 40px auto;
+	background-size: 40px auto;
+	margin-bottom: 10px;
+	padding-bottom: 25px;
+}
+.under .step01 dt .step_tt {
+	font-size: 12px;
+}
+.under .step01 dt .tt01 {
+	font-size: 12px;
+}
+.under .list03 .list03_ct li {
+	background: rgba(0, 0, 0, 0) url("../images/arrow_icon.png") no-repeat scroll left center / 18px auto;
+	display: inline-block;
+	margin-left: 10px;
+	padding-left: 30px;
+	width: 35%;
+}
+.under .case_btn01{
+	width: 100%;
+	box-sizing: border-box;
+}
+.under .case_btn01 li{
+	width: 100%;
+	margin:5px 0;
+	box-sizing: border-box;
+}
+/*=========HUY===========*/
+.under .right_pc {
+	text-align: left;
+}
+.under .box_h4 {
+	margin: 30px 0;
+}
+.under .box_h4 h4 {
+	top: -55px;
+}
+/*=========HUY END===========*/
 }
 
 @media screen and (max-width: 320px) {
+/*=========HUY===========*/
+.under .box_h4 h4 {
+	top: -35px;
+}
+/*=========HUY END===========*/
 }
 
 @media screen and (max-width: 240px) {
